@@ -1,0 +1,13 @@
+[package]
+name = "manifest-editor"
+version = "0.1.0"
+authors = ["Seiichi Uchida <seuchida@gmail.com>"]
+edition = "2018"
+description = "Pragmatically edit Cargo.toml."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cargo_metadata = "0.9"
+semver = "0.9"
+toml = "0.5"
